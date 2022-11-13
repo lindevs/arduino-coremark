@@ -14,7 +14,7 @@ CoreMark requires about 2.5 KiB (2560 bytes) SRAM. So, boards such as Arduino UN
 and can be installed using the following command:
 
 ```shell
-pio pkg install "lindevs/arduino-coremark"
+pio pkg install --library "lindevs/arduino-coremark"
 ```
 
 ## Code example
