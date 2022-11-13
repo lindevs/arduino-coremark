@@ -15,14 +15,18 @@
     }
   ],
   "license": "Apache-2.0",
-  "frameworks": ["arduino"],
+  "frameworks": [
+    "arduino"
+  ],
   "platforms": "*",
   "headers": "core_arduino.h",
   "examples": [
     {
       "name": "Benchmark",
       "base": "examples",
-      "files": "main.cpp"
+      "files": [
+        "main.cpp"
+      ]
     }
   ]
 }
