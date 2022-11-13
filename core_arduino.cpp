@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <cstdarg>
+#include <stdarg.h>
 #include "core_arduino.h"
 
 extern "C" CORETIMETYPE barebones_clock()
