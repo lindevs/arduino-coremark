@@ -1,0 +1,28 @@
+{
+  "name": "arduino-coremark",
+  "version": "1.0.0",
+  "description": "ArduinoCoreMark is a CPU performance benchmark for Arduino platform based on EEMBC CoreMark. It measures the performance of CPU by performing various algorithms such as linked list processing, matrix manipulation, state machines execution.",
+  "keywords": "benchmark, coremark, cpu performance",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lindevs/arduino-coremark.git"
+  },
+  "authors": [
+    {
+      "name": "Lindevs",
+      "url": "https://lindevs.com/contact",
+      "maintainer": true
+    }
+  ],
+  "license": "Apache-2.0",
+  "frameworks": ["arduino"],
+  "platforms": "*",
+  "headers": "core_arduino.h",
+  "examples": [
+    {
+      "name": "Benchmark",
+      "base": "examples",
+      "files": "main.cpp"
+    }
+  ]
+}
