@@ -4,6 +4,8 @@
 the performance of CPU by performing various tasks such as linked list processing, matrix manipulation,
 state machines execution.
 
+Read the following [blog post](https://lindevs.com/benchmark-cpu-performance-on-arduino-compatible-boards) for additional information.
+
 ## Requirements
 
 CoreMark requires about 2.5 KiB (2560 bytes) SRAM. So, boards such as Arduino UNO is not supported.
